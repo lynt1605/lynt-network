@@ -2,8 +2,12 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { CalendarDaysIcon, EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/outline";
-
+import {
+  CalendarDaysIcon,
+  EnvelopeIcon,
+  MapPinIcon,
+  PhoneIcon,
+} from "@heroicons/react/24/outline";
 
 export default function BlogPage() {
   return (
@@ -16,29 +20,39 @@ export default function BlogPage() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="bg-white dark:bg-gray-800 rounded-lg px-6 py-8 ring shadow-xl ring-gray-900/5 flex flex-col justify-center h-full"
         >
-          <h3 className="text-gray-900 dark:text-white text-xl font-medium tracking-tight">
+          <div className="ms-8">
+          <h6 className="text-gray-900 dark:text-white text-5xl font-medium tracking-tight">
             Nguyen Thi Ly
-          </h3>
-          <h5 className="text-gray-900 dark:text-white text-sm font-medium tracking-tight mt-2 ms-3"> Fullstack Development</h5>
-    <div className="space-y-3 mt-3 ms-3">
-      <p className="flex items-center text-gray-600 dark:text-gray-400 text-sm">
-        <CalendarDaysIcon className="w-5 h-5 mr-2 text-indigo-500 flex-shrink-0" />
-        16-05-2001
-      </p>
-            <p className="flex items-center text-gray-600 dark:text-gray-400 text-sm">
-        <PhoneIcon className="w-5 h-5 mr-2 text-indigo-500 flex-shrink-0" />
-        0346018465
-      </p>
-      <p className="flex items-center text-gray-600 dark:text-gray-400 text-sm">
-        <EnvelopeIcon className="w-5 h-5 mr-2 text-indigo-500 flex-shrink-0" />
-        nguyenly1605nguque@gmail.com
-      </p>
-      <p className="flex items-center text-gray-600 dark:text-gray-400 text-sm">
-        <MapPinIcon className="w-5 h-5 mr-2 text-indigo-500 flex-shrink-0" />
-        51 Bình Giã, Phường Tân Bình, TP Hồ Chí Minh
-      </p>
-    </div>
+          </h6>
+          <h6 className="text-gray-900 mt-5 dark:text-white text-2xl font-medium tracking-tight ms-7">
+            {" "}
+            Fullstack Development
+          </h6>
+          <div className="space-y-3 mt-3 ms-10">
+            <p className="flex items-center text-gray-600 dark:text-gray-400 text-lg">
+              <CalendarDaysIcon className="w-5 h-5 mr-2 text-indigo-500 flex-shrink-0" />
+              16-05-2001
+            </p>
+            <p className="flex items-center text-gray-600 dark:text-gray-400 text-lg">
+              <PhoneIcon className="w-5 h-5 mr-2 text-indigo-500 flex-shrink-0" />
+              0346018465
+            </p>
+            <p className="flex items-center text-gray-600 dark:text-gray-400 text-lg">
+              <EnvelopeIcon className="w-5 h-5 mr-2 text-indigo-500 flex-shrink-0" />
+              nguyenly1605nguque@gmail.com
+            </p>
+            <p className="flex items-center text-gray-600 dark:text-gray-400 text-lg">
+              <MapPinIcon className="w-5 h-5 mr-2 text-indigo-500 flex-shrink-0" />
+              51 Bình Giã, Phường Tân Bình, TP Hồ Chí Minh
+            </p>
 
+            <p className="text-gray-600 dark:text-gray-400 text-md mt-2">
+              Tôi là một lập trình viên Fullstack đam mê tạo ra các ứng dụng web
+              hiệu quả và thân thiện với người dùng. Với kỹ năng vững chắc trong
+              cả phát triển frontend và backend, tôi luôn tìm cách học hỏi và
+              áp dụng các công nghệ mới để nâng cao chất lượng sản phẩm.</p>
+          </div>
+          </div>
         </motion.div>
 
         {/* Card ảnh */}
