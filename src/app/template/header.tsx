@@ -27,7 +27,12 @@ export default function Header() {
 
           <li>
             <Link href="/dashboard/profile" className="text-xl font-medium text-gray-600 hover:text-sky-700 transition">
-              Sign in
+              Blog
+            </Link>
+          </li>
+          <li>
+            <Link href="/dashboard/video" className="text-xl font-medium text-gray-600 hover:text-sky-700 transition">
+              Video
             </Link>
           </li>
           <li>
