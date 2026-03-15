@@ -55,8 +55,6 @@ Ngoài các vấn đề kỹ thuật, quá trình phát triển sản phẩm cũ
 
 Khi mà hệ thống cần thêm hoặc bổ sung một dịch vụ bên ngoài khác có cấu trúc và logic khác biêt => phải phát triển thêm để đảm bảo hệ thống vận hành.
 
----
-
 #### Tài liệu của các dịch vụ ngoài có thể không chính xác với thực tế
 
 Một số dịch vụ ngoài có tài liệu bị cũ hoặc bị sai , không chính xác=> gặp khó khăn khi kiểm thử
@@ -154,7 +152,7 @@ Em **không hoàn toàn đồng ý** với lời khuyên này.
 
 Việc nghĩ trước về khả năng mở rộng là quan trọng, nhưng xây dựng quá nhiều infrastructure ngay từ đầu có thể làm tăng độ phức tạp và làm chậm quá trình phát triển sản phẩm. Điều này dẫn đến việc tốn nhân sự cũng như thời gian vào cái chưa thực sự cần thiết vào thời điểm ban đầu của dự án.
 
----
+
 
 ### Lí do
 
