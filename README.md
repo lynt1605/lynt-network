@@ -1,4 +1,3 @@
-# SOLUTION.md
 
 ## Track B — Middle
 
@@ -76,7 +75,7 @@ Trong giai đoạn đầu của sản phẩm, em sẽ ưu tiên xây dựng **m�
 Muốn hệ thống hoạt động ổn đình thì cần phải đảm bảo việc giao tiếp với các dịch vụ bên ngoài ổn định, chính xác và nắm bắt các vấn đề sớm nhất có thể. Để tăng độ ổn định trong việc giao tiếp thì có thể triển khai các điều:
 
 - sử dụng **job queue** cho các tác vụ gọi API bên ngoài  ( có thể dùng queue cho notify , update order)
-- retry với exponential backoff 
+- thêm cơ chế retry(phải cố định số lượng retry=> nếu quá nhiều thì có thể notify cho admin) 
 - timeout khi gọi API  
 - logging các lỗi integration  
 
@@ -167,3 +166,8 @@ Nếu đầu tư quá nhiều vào kiến trúc phức tạp ngay từ đầu, t
 Một cách tiếp cận hợp lý hơn là **bắt đầu với kiến trúc đơn giản nhưng đáng tin cậy**, sau đó cải tiến dần khi hệ thống phát triển.
 
 ---
+
+## Originality
+
+Em có sử dụng tool AI (ChatGPT) như một công cụ hỗ trợ để sắp xếp lại các ý tưởng và giúp cách trình bày được rõ ràng, mạch lạc hơn. 
+Các ý tưởng và lập luận chính trong bài đều dựa trên hiểu biết cá nhân của tôi. AI chủ yếu giúp tôi chỉnh sửa cách diễn đạt và bổ sung một vài ví dụ để phần giải thích dễ hiểu hơn.
